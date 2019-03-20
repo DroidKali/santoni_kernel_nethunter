@@ -1,4 +1,4 @@
-{% cq %} # Android Kernel Source For Xiaomi Redmi 4X (Nougat/MIUI) {% endcq %}
+# Android Kernel Source For Xiaomi Redmi 4X (Nougat/MIUI)
 
 ## Before Build
 1.Setup Build Environment
