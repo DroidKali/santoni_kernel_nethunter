@@ -21,8 +21,14 @@ git clone --depth=1 https://github.com/DroidKali/santoni_kernel_nethunter.git
 3.Download Build Toolchain
 ```
 git clone https://bitbucket.org/UBERTC/aarch64-linux-android-4.9-kernel.git toolchain
+```
+```
 export ARCH=arm64
+```
+```
 export SUBARCH=arm64
+```
+```
 export CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
 ```
 
@@ -30,11 +36,19 @@ export CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
 ```
 cd santoni_kernel_nethunter
 ```
+```
 mkdir out 
+```
+```
 make O=out mrproper
+```
+```
 make O=out santoni_defconfig ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
+```
+```
 make -j$(nproc) O=out 2>&1 ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
 ```
+
 ### For BUILD Kali NetHunter KERNEL
 ```
 chmod +x menuconfig.sh build.sh && ./menuconfig.sh
