@@ -21,7 +21,7 @@
 #DEFAULT_DEVICE=yourdevice
 
 # default target name
-DEFAULT_TARGET=nethunter
+DEFAULT_TARGET=santoni
 
 # directory containing cross-compile arm64 toolchain (change this!)
 TOOLCHAIN=/root/toolchain/

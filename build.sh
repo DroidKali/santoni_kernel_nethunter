@@ -18,7 +18,7 @@
 ###################### CONFIG ######################
 
 # default device name (change this!)
-DEFAULT_DEVICE=yourdevice
+DEFAULT_DEVICE=santoni
 
 # default target name
 DEFAULT_TARGET=nethunter
