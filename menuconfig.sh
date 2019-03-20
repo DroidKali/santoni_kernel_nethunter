@@ -18,10 +18,10 @@
 ###################### CONFIG ######################
 
 # default device name (change this!)
-#DEFAULT_DEVICE=yourdevice
+DEFAULT_DEVICE=santoni
 
 # default target name
-DEFAULT_TARGET=santoni
+DEFAULT_TARGET=nethunter
 
 # directory containing cross-compile arm64 toolchain (change this!)
 TOOLCHAIN=/root/toolchain/
@@ -57,7 +57,7 @@ done
 
 [ "$DEVICE" ] || DEVICE=$DEFAULT_DEVICE
 [ "$TARGET" ] || TARGET=$DEFAULT_TARGET
-DEFCONFIG=${TARGET}${DEVICE}_defconfig
+DEFCONFIG=${TARGET}_${DEVICE}_defconfig
 DEFCONFIG_FILE=$RDIR/arch/$ARCH/configs/$DEFCONFIG
 
 [ -f "$DEFCONFIG_FILE" ] ||
