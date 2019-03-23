@@ -64,3 +64,11 @@ For BUILD Kali NetHunter KERNEL
 $ chmod +x menuconfig.sh build.sh && ./menuconfig.sh
 $ ./build.sh
 ```
+
+Thanks
+======
+- ryan-andri https://github.com/ryan-andri/android_kernel_santoni
+- Kali-Nethunter-Project https://github.com/offensive-security/kali-nethunter/wiki
+- Aircrack-ng https://github.com/aircrack-ng/aircrack-ng
+- pelya https://github.com/pelya/android-keyboard-gadget
+
