@@ -6,7 +6,7 @@ This repo is a Android Kernel Source For Xiaomi Redmi 4X (Nougat/MIUI based ROM)
 Feature
 =======
 
-- Have patched Aircrack-ng 802.11 frames inject patch and [pelya's android-keyboard-gadget patch](https://github.com/pelya/android-keyboard-gadget.git) so that can be used for WiFi pentest and HID Attack
+- Have patched Aircrack-ng 802.11 frames inject patch and [pelya's android-keyboard-gadget patch](https://github.com/pelya/android-keyboard-gadget) so that can be used for WiFi pentest and HID Attack
 - Support The [Kali NetHunter Project](https://github.com/offensive-security/kali-nethunter/wiki)
 
 Before Build
