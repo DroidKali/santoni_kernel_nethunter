@@ -62,8 +62,5 @@ For BUILD Kali NetHunter KERNEL
 
 ```bash
 $ chmod +x menuconfig.sh build.sh && ./menuconfig.sh
-```
-
-```bash
 $ ./build.sh
 ```
