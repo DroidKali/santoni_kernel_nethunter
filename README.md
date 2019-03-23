@@ -53,17 +53,17 @@ $ mkdir out
 $ make O=out mrproper
 ```
 ```bash
-make O=out santoni_defconfig ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
-make -j$(nproc) O=out 2>&1 ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
+$ make O=out santoni_defconfig ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
+$ make -j$(nproc) O=out 2>&1 ARCH=arm64 CROSS_COMPILE=${pwd}/toolchain/bin/aarch64-linux-android-
 ```
 
 For BUILD Kali NetHunter KERNEL
 ===============================
 
 ```bash
-chmod +x menuconfig.sh build.sh && ./menuconfig.sh
+$ chmod +x menuconfig.sh build.sh && ./menuconfig.sh
 ```
 
 ```bash
-./build.sh
+$ ./build.sh
 ```
