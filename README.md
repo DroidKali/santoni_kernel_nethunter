@@ -68,7 +68,10 @@ $ ./build.sh
 Thanks
 ======
 - ryan-andri https://github.com/ryan-andri/android_kernel_santoni
-- Kali NetHunter Project https://github.com/offensive-security/kali-nethunter/wiki
+
+- Kali NetHunter Project https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/wikis/home
+
 - Aircrack-ng https://github.com/aircrack-ng/aircrack-ng
+
 - pelya https://github.com/pelya/android-keyboard-gadget
 
