@@ -7,7 +7,7 @@ Feature
 =======
 
 - Have patched Aircrack-ng 802.11 frames inject patch and [pelya's android-keyboard-gadget patch](https://github.com/pelya/android-keyboard-gadget) so that can be used for WiFi pentest and HID Attack
-- Support The [Kali NetHunter Project](https://github.com/offensive-security/kali-nethunter/wiki)
+- Support The [Kali NetHunter Project](https://gitlab.com/kalilinux/nethunter/build-scripts/kali-nethunter-project/wikis/home)
 
 Before Build
 ============
@@ -17,7 +17,7 @@ Before Build
 
 ```bash
 $ sudo apt update
-$ sudo install -y git ccache automake flex lzop bison \
+$ sudo apt install -y git ccache automake flex lzop bison \
 gperf build-essential zip curl zlib1g-dev zlib1g-dev:i386 \
 g++-multilib python-networkx libxml2-utils bzip2 libbz2-dev \
 libbz2-1.0 libghc-bzlib-dev squashfs-tools pngcrush \
