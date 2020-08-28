@@ -30,10 +30,3 @@ jobs:
         run: |
           sudo apt update
           sudo apt upgrade -y
-          sudo apt install -y openssl ccache bc bash git-core gnupg build-essential zip curl make automake autogen autoconf autotools-dev libtool shtool python m4 gcc libtool zlib1g-dev flex gcc-aarch64-linux-gnu libssl-dev
-          git clone https://bitbucket.org/UBERTC/aarch64-linux-android-4.9-kernel.git --depth=1 /root/toolchain
-          export ARCH=arm64
-          export SUBARCH=arm64
-          export CROSS_COMPILE=/root/toolchain/bin/aarch64-linux-gnu-
-          ./menuconfig.sh
-          ./build.sh
